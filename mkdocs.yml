@@ -1,0 +1,150 @@
+site_name: Mediation Act
+site_url: https://www.comsect.in/mediation-act/
+site_author: Comsect®
+site_description: The Mediation Act, 2023
+theme:
+  name: material
+  language: en
+  logo: assets/ashoka-chakra-logo.png
+  favicon: assets/comsect-logo.png
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: light blue
+      accent: light blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: light blue
+      accent: light blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.footer
+    - navigation.tabs
+    - navigation.sections
+    - content.tooltips
+    
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - footnotes
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - abbr
+  - attr_list
+  - md_in_html
+  - def_list
+  - pymdownx.snippets:
+     auto_append:
+        - includes/abbreviations.md
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/company/comsect
+      name: Comsect™ on LinkedIn
+    - icon: fontawesome/brands/github
+      link: https://github.com/comsect
+      name: Comsect™ on GitHub
+    - icon: fontawesome/brands/youtube
+      link: https://youtube.com/@comsect
+      name: Comsect™ on YouTube
+
+plugins:
+  - search:
+      lang: en
+  - minify:
+      minify_html: true
+  - social:
+      cards_layout_options:
+        background_color: "#06038D"
+  - glightbox
+
+nav:
+  - Introduction: index.md
+  - Chapter I - Preliminary:
+    - Section 1: en/1.md
+  - Chapter II - Application:
+    - Section 2: en/2.md
+    - Section 3: en/3.md
+  - Chapter III - Mediation:
+    - Section 4: en/4.md
+    - Section 5: en/5.md
+    - Section 6: en/6.md
+    - Section 7: en/7.md
+  - Chapter IV - Mediators:
+    - Section 8: en/8.md
+    - Section 9: en/9.md
+    - Section 10: en/10.md
+    - Section 11: en/11.md
+    - Section 12: en/12.md
+  - Chapter V - Mediation Proceedings:
+    - Section 13: en/13.md
+    - Section 14: en/14.md
+    - Section 15: en/15.md
+    - Section 16: en/16.md
+    - Section 17: en/17.md
+    - Section 18: en/18.md
+    - Section 19: en/19.md
+    - Section 20: en/20.md
+    - Section 21: en/21.md
+    - Section 22: en/22.md
+    - Section 23: en/23.md
+    - Section 24: en/24.md
+    - Section 25: en/25.md
+    - Section 26: en/26.md
+  - Chapter VI - Enforcement of Mediated Settlement Agreement:
+    - Section 27: en/27.md
+    - Section 28: en/28.md
+    - Section 29: en/29.md
+  - Chapter VII - Online Mediation:
+    - Section 30: en/30.md
+  - Chapter VIII - Mediation Council of India:
+    - Section 31: en/31.md
+    - Section 32: en/32.md
+    - Section 33: en/33.md
+    - Section 34: en/34.md
+    - Section 35: en/35.md
+    - Section 36: en/36.md
+    - Section 37: en/37.md
+    - Section 38: en/38.md
+    - Section 39: en/39.md
+  - Chapter IX - Mediation Service Providers and Mediation Institutes:
+    - Section 40: en/40.md
+    - Section 41: en/41.md
+    - Section 42: en/42.md
+  - Chapter X - Community Mediation:
+    - Section 43: en/43.md
+  - Chapter XI - Miscellaneous:
+    - Section 44: en/44.md
+    - Section 45: en/45.md
+  - Schedules:
+    - The First Schedule: en/first-schedule.md
+    - The Second Schedule: en/second-schedule.md
+    - The Third Schedule: en/third-schedule.md
+    - The Fourth Schedule: en/fourth-schedule.md
+    - The Fifth Schedule: en/fifth-schedule.md
+    - The Sixth Schedule: en/sixth-schedule.md
+    - The Seventh Schedule: en/seventh-schedule.md
+    - The Eighth Schedule: en/eighth-schedule.md
+    - The Ninth Schedule: en/ninth-schedule.md
+    - The Tenth Schedule: en/tenth-schedule.md
+
+copyright: Copyright &copy 2024 <a href="https://www.github.com/comsect">Comsect<sup>&reg;</sup></a>. All rights reserved. Read the <a href="/license" target="_blank">License</a>.
