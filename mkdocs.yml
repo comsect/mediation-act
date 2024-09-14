@@ -8,15 +8,13 @@ theme:
   logo: assets/ashoka-chakra-logo.png
   favicon: assets/comsect-logo.png
   palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
+    - scheme: default
       primary: light blue
       accent: light blue
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
+    - scheme: slate
       primary: light blue
       accent: light blue
       toggle:
